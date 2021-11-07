@@ -1,0 +1,7 @@
+imutils>=0.5.3
+python-telegram-bot>=13.7
+
+# Also need OpenCV
+#
+# On Ubuntu 20.04 -> sudo apt install libopencv-dev python3-opencv
+#
