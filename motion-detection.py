@@ -40,7 +40,7 @@ if args.debug:
 args = vars(ap.parse_args())
 
 logging.info("[+] Starting video capture...")
-vs = cv2.VideoCapture(2)
+vs = cv2.VideoCapture(0)
 time.sleep(2.0)
 logging.info("[*] Done")
 
